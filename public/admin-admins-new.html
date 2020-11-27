@@ -1,0 +1,35 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Admins > Create -->
+<div id="wrapper">
+    <ng-include src="'/admin-sidebar.html'"></ng-include>
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <h1 class="page-header">Create a New Admin</h1>
+            <p>
+                <br />
+                You can create a new admin here:
+            </p>
+            <div class="col-md-4">
+                <h5 ng-show="success">
+                    <div class="alert alert-success"><strong>Success!</strong> Admin created.</div>
+                </h5>
+                <p>
+                    <label>Name</label>
+                    <input id="name" class="form-control" type="text" ng-model="admin.name" required />
+                </p>
+                <p>
+                    <label>Email</label>
+                    <input id="email" class="form-control" type="email" ng-model="admin.email" required />
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input id="password" class="form-control" type="password" ng-model="admin.password" required />
+                </p>
+                <p>
+                    <button style="margin-top: 20px;" class="btn btn-warning" ng-click="create(admin)">Create</button>
+                    <button style="margin-top: 20px;" class="btn btn-primary" ng-click="back()">Cancel</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

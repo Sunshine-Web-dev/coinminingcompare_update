@@ -1,0 +1,3336 @@
+[
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Gold",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "179",
+   "priceOther": "",
+   "f1": "Open-Ended Bitcoin Mining",
+   "f2": "Maintenance fee applies",
+   "f3": "Custom plan selection",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Platinum",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "5000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "845",
+   "priceOther": "",
+   "f1": "Open-Ended Bitcoin Mining",
+   "f2": "Maintenance fee applies",
+   "f3": "Custom plan selection",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Diamond",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "25000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "3975",
+   "priceOther": "",
+   "f1": "Open-Ended Bitcoin Mining",
+   "f2": "Maintenance fee applies",
+   "f3": "Custom plan selection",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Gemini",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "5",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "30",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Ferox",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "100",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "500",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Graviton",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "500",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "2250",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Small",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "40",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "1520",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Medium",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "120",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "4440",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Large",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "360",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "12960",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Gold",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "2",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "28",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Platinum",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "50",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "650",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Diamond",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "200",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "2400",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Blaine",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "1000",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "830",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Dynamo",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "3000",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "2460",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Houdini",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "9000",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "7200",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Starter",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "200",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "530",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Advanced",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "1000",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "2600",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a86267160bf14473ad47c68",
+   "company": {
+    "_id": "5a86267160bf14473ad47c68",
+    "name": "Genesis Mining",
+    "website": "https://www.genesis-mining.com/",
+    "description": "Bitcoin is the currency of the future & Genesis Mining is the largest cloud mining company on the market. Mine bitcoin through the cloud, get started today!",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1518741095/zddppcfaegfevizqxdzo.jpg"
+        }
+    ],
+    "createDate": "2018-02-16T00:31:45.503Z"
+   },
+   "name": "Professional",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "3000",
+   "hashrateUnits": "H/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "7650",
+   "priceOther": "",
+   "f1": "No maintenance fee",
+   "f2": "Custom plan selection",
+   "f3": "",
+   "f4": "",
+   "location": "Iceland",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://www.genesis-mining.com/a/2135766",
+   "refCode": "XtiFDy",
+   "promotion": "3% OFF Purchase Price",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Scrypt Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "2",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.005",
+   "priceUSD": "6.4",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Scrypt Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "50",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.005",
+   "priceUSD": "160",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Scrypt Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "200",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.005",
+   "priceUSD": "640",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "SHA-256 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1000",
+   "hashrateUnits": "GH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.00035",
+   "priceUSD": "120",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "SHA-256 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "5000",
+   "hashrateUnits": "GH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.00035",
+   "priceUSD": "600",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "SHA-256 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "25000",
+   "hashrateUnits": "GH/s",
+   "period": "12",
+   "payout": "BTC",
+   "maintenance": "0.00035",
+   "priceUSD": "3000",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Automatic payout in BTC",
+   "f3": "",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Ethereum Cloud Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "40000",
+   "hashrateUnits": "KH/s",
+   "period": "12",
+   "payout": "ETH",
+   "maintenance": "0",
+   "priceUSD": "880.0000000000001",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ETH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Ethereum Cloud Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "120000",
+   "hashrateUnits": "KH/s",
+   "period": "12",
+   "payout": "ETH",
+   "maintenance": "0",
+   "priceUSD": "2640",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ETH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Ethereum Cloud Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "360000",
+   "hashrateUnits": "KH/s",
+   "period": "12",
+   "payout": "ETH",
+   "maintenance": "0",
+   "priceUSD": "7920.000000000001",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ETH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Zcash Cloud Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "200",
+   "hashrateUnits": "H/s",
+   "period": "12",
+   "payout": "ZEC",
+   "maintenance": "0",
+   "priceUSD": "400",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ZEC",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Zcash Cloud Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "1000",
+   "hashrateUnits": "H/s",
+   "period": "12",
+   "payout": "ZEC",
+   "maintenance": "0",
+   "priceUSD": "2000",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ZEC",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Zcash Cloud Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "3000",
+   "hashrateUnits": "H/s",
+   "period": "12",
+   "payout": "ZEC",
+   "maintenance": "0",
+   "priceUSD": "6000",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in ZEC",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Dash Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "5",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "DASH",
+   "maintenance": "0",
+   "priceUSD": "16",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in DASH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Dash Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "100",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "DASH",
+   "maintenance": "0",
+   "priceUSD": "320",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in DASH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a8e36be08bf6fbf5e9b5f2c",
+   "company": {
+    "_id": "5a8e36be08bf6fbf5e9b5f2c",
+    "name": "Hashflare",
+    "website": "https://hashflare.io/",
+    "description": "HashFlare.io offers cryptocurrency cloud mining services on modern, high-efficiency equipment.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1519269488/u9ruzav3h0luooi9sc8s.jpg"
+        }
+    ],
+    "createDate": "2018-02-22T03:19:26.509Z"
+},
+   "name": "Dash Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "500",
+   "hashrateUnits": "MH/s",
+   "period": "12",
+   "payout": "DASH",
+   "maintenance": "0",
+   "priceUSD": "1600",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "No maintenance fee",
+   "f3": "Automatic payout in DASH",
+   "f4": "",
+   "location": "Estonia",
+   "paymentmethods": "Cryptocurrency, MasterCard, Wire Transfer",
+   "refURL": "https://hashflare.io/r/AE4FC4A2",
+   "refCode": "AE4FC4A2",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06134d08315fbfc82424",
+   "company": {
+    "_id": "5a9f06134d08315fbfc82424",
+    "description": "Let us mine for you with our hardware in the cloud - Immediate results, mining updates every 60 seconds - Can own fractions of cloud instances, if desired - No heat or hardware to maintain - Choose payout in any displayed cryptocurrency - 5 year and 24 hour rental lengths available - No returns/exchanges",
+    "website": "https://www.eobot.com/",
+    "name": "Eobot",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371212/l65o7hp34ala4wiqz0vc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:20:19.793Z"
+},
+   "name": "GHS 4.0 (SHA-256)",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1000",
+   "hashrateUnits": "GH/s",
+   "period": "60",
+   "payout": "Multiple",
+   "maintenance": "0.00021",
+   "priceUSD": "460",
+   "priceOther": "",
+   "f1": "Immediate results, mining updates every 60 seconds",
+   "f2": "Choose payout in cryptocurrency of your choice*",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency, Epay",
+   "refURL": "https://www.eobot.com/new.aspx?referid=1801268",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06134d08315fbfc82424",
+   "company": {
+    "_id": "5a9f06134d08315fbfc82424",
+    "description": "Let us mine for you with our hardware in the cloud - Immediate results, mining updates every 60 seconds - Can own fractions of cloud instances, if desired - No heat or hardware to maintain - Choose payout in any displayed cryptocurrency - 5 year and 24 hour rental lengths available - No returns/exchanges",
+    "website": "https://www.eobot.com/",
+    "name": "Eobot",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371212/l65o7hp34ala4wiqz0vc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:20:19.793Z"
+},
+   "name": "GHS 4.0 (SHA-256)",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "5000",
+   "hashrateUnits": "GH/s",
+   "period": "60",
+   "payout": "Multiple",
+   "maintenance": "0.00021",
+   "priceUSD": "2300",
+   "priceOther": "",
+   "f1": "Immediate results, mining updates every 60 seconds",
+   "f2": "Choose payout in cryptocurrency of your choice*",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency, Epay",
+   "refURL": "https://www.eobot.com/new.aspx?referid=1801268",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06134d08315fbfc82424",
+   "company": {
+    "_id": "5a9f06134d08315fbfc82424",
+    "description": "Let us mine for you with our hardware in the cloud - Immediate results, mining updates every 60 seconds - Can own fractions of cloud instances, if desired - No heat or hardware to maintain - Choose payout in any displayed cryptocurrency - 5 year and 24 hour rental lengths available - No returns/exchanges",
+    "website": "https://www.eobot.com/",
+    "name": "Eobot",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371212/l65o7hp34ala4wiqz0vc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:20:19.793Z"
+},
+   "name": "GHS 4.0 (SHA-256)",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "25000",
+   "hashrateUnits": "GH/s",
+   "period": "60",
+   "payout": "Multiple",
+   "maintenance": "0.00021",
+   "priceUSD": "11500",
+   "priceOther": "",
+   "f1": "Immediate results, mining updates every 60 seconds",
+   "f2": "Choose payout in cryptocurrency of your choice*",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency, Epay",
+   "refURL": "https://www.eobot.com/new.aspx?referid=1801268",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Starter",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "621.95",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "0.174146",
+   "priceUSD": "100",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Bronze",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1865.87",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "0.5224435999999999",
+   "priceUSD": "300",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Silver",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "3731.76",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "1.0448928",
+   "priceUSD": "600",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Gold",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "7463.53",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "2.0897883999999998",
+   "priceUSD": "1200",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Platinum",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "22390.6",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "6.269367999999999",
+   "priceUSD": "3600",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Emerald",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "44781.21",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "12.538738799999999",
+   "priceUSD": "7200",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Diamond",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "74635.43",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "20.897920399999997",
+   "priceUSD": "12000",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Royal",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "149270.88",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "",
+   "maintenance": "41.795846399999995",
+   "priceUSD": "24000",
+   "priceOther": "",
+   "f1": "$0 Maintenance Fee",
+   "f2": "Hash Power Guarantee",
+   "f3": "99.9% Uptime",
+   "f4": "",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Starter",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "10",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "369.99",
+   "priceOther": "",
+   "f1": "",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Bronze",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "30",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "1109.99",
+   "priceOther": "",
+   "f1": "$0 Energy Fee",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Silver",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "60",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "2219.99",
+   "priceOther": "",
+   "f1": "$0 Energy Fee",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Gold",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "120",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "4439.99",
+   "priceOther": "",
+   "f1": "$0 Energy Fee",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Platinum",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "360",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "13319.99",
+   "priceOther": "",
+   "f1": "$0 Energy Fee",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f05894d08315fbfc82423",
+   "company": {
+    "_id": "5a9f05894d08315fbfc82423",
+    "name": "Nuvoo Mining",
+    "website": "https://nuvoo.io/",
+    "description": "NuVoo offers many options to begin or sustain your growth in the cryptocurrency industry. You can choose from our Cloud mining solutions, collocation miners services or dedicated miners hosting options. We can even work on a dedicated program to build your own farm.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371036/ebyo5pquhq9yygrbzvxy.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:18:01.190Z"
+   },
+   "name": "Emerald",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "720",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "",
+   "maintenance": "0",
+   "priceUSD": "26639.99",
+   "priceOther": "",
+   "f1": "$0 Energy Fee",
+   "f2": "$0 Maintenance Fee",
+   "f3": "Hash Power Guarantee",
+   "f4": "99.9% Uptime",
+   "location": "Canada",
+   "paymentmethods": "Cryptocurrency, Visa, MasterCard, Wire Transfer",
+   "refURL": "https://panel.nuvoo.io/lpen?tmpl=lp_01&ref=vkhetrapal",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "3 TH/s Lifetime BTC Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "3",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.35",
+   "priceUSD": "600",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0014 BTC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "10 TH/s Lifetime BTC Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "10",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.12",
+   "priceUSD": "1997",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0014 BTC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "15 TH/s Lifetime BTC Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "15",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.12",
+   "priceUSD": "2995",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0014 BTC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "30 TH/s Lifetime BTC Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "30",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.12",
+   "priceUSD": "5990",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0014 BTC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "36 MH/s Lifetime ETH Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "36",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "270",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0024 ETH minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "60 MH/s Lifetime ETH Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "60",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "450",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0024 ETH minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "100 MH/s Lifetime ETH Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "100",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "750",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0024 ETH minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "180 MH/s Lifetime ETH Mining",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "180",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1340",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.0024 ETH minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "25 H/s Lifetime ZEC Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "25",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "ZEC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "44.75",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00002 ZEC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "100 H/s Lifetime ZEC Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "100",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "ZEC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "179",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00002 ZEC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "250 H/s Lifetime ZEC Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "250",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "ZEC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "447",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00002 ZEC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "1000 H/s Lifetime ZEC Mining",
+   "coin": "Zcash",
+   "algo": "Equihash",
+   "hashrate": "1000",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "ZEC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1759",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00002 ZEC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "3 TH/s Lifetime BCH Mining",
+   "coin": "Bitcoin Cash",
+   "algo": "SHA-256",
+   "hashrate": "3",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BCH",
+   "maintenance": "0.35",
+   "priceUSD": "600",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "10 TH/s Lifetime BCH Mining",
+   "coin": "Bitcoin Cash",
+   "algo": "SHA-256",
+   "hashrate": "10",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BCH",
+   "maintenance": "0.12",
+   "priceUSD": "1997",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "15 TH/s Lifetime BCH Mining",
+   "coin": "Bitcoin Cash",
+   "algo": "SHA-256",
+   "hashrate": "15",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BCH",
+   "maintenance": "0.12",
+   "priceUSD": "2995",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "30 TH/s Lifetime BCH Mining",
+   "coin": "Bitcoin Cash",
+   "algo": "SHA-256",
+   "hashrate": "30",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BCH",
+   "maintenance": "0.12",
+   "priceUSD": "5990",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "36 MH/s Lifetime ETC Mining",
+   "coin": "Ethereum Classic",
+   "algo": "ETHASH",
+   "hashrate": "36",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "270",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00126 ETC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "60 MH/s Lifetime ETC Mining",
+   "coin": "Ethereum Classic",
+   "algo": "ETHASH",
+   "hashrate": "60",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "450",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00126 ETC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "90 MH/s Lifetime ETC Mining",
+   "coin": "Ethereum Classic",
+   "algo": "ETHASH",
+   "hashrate": "90",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "750",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00126 ETC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "180 MH/s Lifetime ETC Mining",
+   "coin": "Ethereum Classic",
+   "algo": "ETHASH",
+   "hashrate": "180",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "ETC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1340",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.00126 ETC minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "50 H/s Lifetime XMR Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "50",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "37.1",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.02 XMR minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "200 H/s Lifetime XMR Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "200",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "147.9",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.02 XMR minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "700 H/s Lifetime XMR Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "700",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "517.7",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.02 XMR minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f06864d08315fbfc82425",
+    "company": {
+    "_id": "5a9f06864d08315fbfc82425",
+   
+    "name": "MyCoinCloud",
+    "website": "https://www.mycoincloud.com/",
+    "description": "We are cryptocurrency cloud mining service situated in the capital of Bulgaria, Sofia. MyCoinCloud was founded at the end of 2015 by group of cryptocurrency enthusiasts and specialists. We strongly believe that we can make mining affordable and profitable for everyone willing to join cryptocurrency revolution.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371285/kqhdfbjmzffvrgydf1jm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:22:14.074Z"
+    },
+   "name": "2000 H/s Lifetime XMR Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "2000",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1459",
+   "priceOther": "",
+   "f1": "Weekly payouts",
+   "f2": "Immediate activation",
+   "f3": "0.02 XMR minimum weekly payout",
+   "f4": "",
+   "location": "Bulgaria",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://www.mycoincloud.com/aff.php?aff=234",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "BTC Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.33",
+   "priceUSD": "",
+   "priceOther": "0.01939 BTC",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "BTC Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "5000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "1.65",
+   "priceUSD": "",
+   "priceOther": "0.09695 BTC",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "BTC Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "25000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "8.25",
+   "priceUSD": "",
+   "priceOther": "0.48475 BTC",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "XMR Cloud Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "1000",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "0.67",
+   "priceUSD": "",
+   "priceOther": "3.44984970 XMR",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "XMR Cloud Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "3000",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "2.01",
+   "priceUSD": "",
+   "priceOther": "10.34954910 XMR",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f070c4d08315fbfc82426",
+    "company": {
+    "_id": "5a9f070c4d08315fbfc82426",
+   
+    "name": "Minergate",
+    "website": "https://minergate.com/",
+    "description": "Create your first cloud mining contract here! The most advanced mining hardware and only freshly mined Bitcoins, Ethereum and Monero directly from the block rewards are a couple of clicks away.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371435/fwifivtftgihj4bsukwu.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:24:28.819Z"
+    },
+   "name": "XMR Cloud Mining",
+   "coin": "Monero",
+   "algo": "CryptoNight",
+   "hashrate": "9000",
+   "hashrateUnits": "H/s",
+   "period": "Open-Ended",
+   "payout": "XMR",
+   "maintenance": "6.03",
+   "priceUSD": "",
+   "priceOther": "31.0486473 XMR",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "https://minergate.com/a/3b15001f612401886e7cb78a",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43150"
+ },
+ {
+   "companies": "5a9f078b4d08315fbfc82427",
+    "company": {
+    "_id": "5a9f078b4d08315fbfc82427",
+   
+    "website": "https://hash.wagecan.com/",
+    "name": "Hashcan",
+    "description": "HashCan is a cloud mining app built for mobile. Cloud mining is just like cloud computing, but for Bitcoin mining. As a user, all you need to do is to pay for the hash power you want, and our dedicated hardware ninjas and software geniuses will take care the rest for you.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371592/ctwnexpdiuwnmzldhlsm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:26:35.115Z"
+    },
+   "name": "Lite",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "1000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "1200",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f078b4d08315fbfc82427",
+    "company": {
+    "_id": "5a9f078b4d08315fbfc82427",
+   
+    "website": "https://hash.wagecan.com/",
+    "name": "Hashcan",
+    "description": "HashCan is a cloud mining app built for mobile. Cloud mining is just like cloud computing, but for Bitcoin mining. As a user, all you need to do is to pay for the hash power you want, and our dedicated hardware ninjas and software geniuses will take care the rest for you.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371592/ctwnexpdiuwnmzldhlsm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:26:35.115Z"
+    },
+   "name": "Jet",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "5000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "6000",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "30% Discount Code for Plastic Card",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f078b4d08315fbfc82427",
+    "company": {
+    "_id": "5a9f078b4d08315fbfc82427",
+   
+    "website": "https://hash.wagecan.com/",
+    "name": "Hashcan",
+    "description": "HashCan is a cloud mining app built for mobile. Cloud mining is just like cloud computing, but for Bitcoin mining. As a user, all you need to do is to pay for the hash power you want, and our dedicated hardware ninjas and software geniuses will take care the rest for you.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371592/ctwnexpdiuwnmzldhlsm.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:26:35.115Z"
+    },
+   "name": "Rocket",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "25000",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "0.00028",
+   "priceUSD": "30000",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "Free Plastic Card with Express Delivery",
+   "f3": "",
+   "f4": "",
+   "location": "United States",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f07f54d08315fbfc82428",
+    "company": {
+    "_id": "5a9f07f54d08315fbfc82428",
+   
+    "website": "https://costanordmine.com/",
+    "name": "Costa Nord Mine",
+    "description": "Costa Nord Mine offers you a smart and easy way to invest your money. Our Ethereum extraction system is suited for those who are new to the world of crypto-coins, as well as for encryption experts and large-scale investors. Costa Nord Mine is an Ethereum extraction service that is an easy and secure way to purchase.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371683/imnep5x1itwg9ymutvgk.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:28:21.430Z"
+},
+   "name": "Basic",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "50",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "ETH",
+   "maintenance": "",
+   "priceUSD": "",
+   "priceOther": "1500 EUR",
+   "f1": "Custom plan selection",
+   "f2": "Free support",
+   "f3": "",
+   "f4": "",
+   "location": "Romania",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f07f54d08315fbfc82428",
+    "company": {
+    "_id": "5a9f07f54d08315fbfc82428",
+   
+    "website": "https://costanordmine.com/",
+    "name": "Costa Nord Mine",
+    "description": "Costa Nord Mine offers you a smart and easy way to invest your money. Our Ethereum extraction system is suited for those who are new to the world of crypto-coins, as well as for encryption experts and large-scale investors. Costa Nord Mine is an Ethereum extraction service that is an easy and secure way to purchase.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371683/imnep5x1itwg9ymutvgk.png"
+        }
+    ],
+    "createDate": "2018-03-06T21:28:21.430Z"
+},
+   "name": "Premium",
+   "coin": "Ethereum",
+   "algo": "ETHASH",
+   "hashrate": "150",
+   "hashrateUnits": "MH/s",
+   "period": "24",
+   "payout": "ETH",
+   "maintenance": "",
+   "priceUSD": "",
+   "priceOther": "4500 EUR",
+   "f1": "Custom plan selection",
+   "f2": "Free support",
+   "f3": "",
+   "f4": "",
+   "location": "Romania",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "S9 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "10",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1990",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "S9 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "50",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "9950",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "S9 Cloud Mining",
+   "coin": "Bitcoin",
+   "algo": "SHA-256",
+   "hashrate": "250",
+   "hashrateUnits": "TH/s",
+   "period": "Open-Ended",
+   "payout": "BTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "49750",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "L3 Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "2",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "LTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "11.8",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "L3 Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "50",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "LTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "295",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "L3 Cloud Mining",
+   "coin": "Litecoin",
+   "algo": "Scrypt",
+   "hashrate": "200",
+   "hashrateUnits": "MH/s",
+   "period": "Open-Ended",
+   "payout": "LTC",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1180",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "D3 Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "0.005",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "DASH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "0.745",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "D3 Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "0.01",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "DASH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "1.49",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ },
+ {
+   "companies": "5a9f085f4d08315fbfc82429",
+    "company": {
+    "_id": "5a9f085f4d08315fbfc82429",
+   
+    "name": "ViaBTC",
+    "website": "https://www.viabtc.com/",
+    "description": "A world's TOP Bitcoin, Litecoin, Ethereum, Zcash and Dashcoin mining pool who provides professional & stable mining services with very low fees. An advanced PPS+ method guarantees much higher yields.",
+    "photo": [
+        {
+            "url": "https://res.cloudinary.com/tashfeen/image/upload/v1520371760/rymeoi6dsvo2hsu0tojc.jpg"
+        }
+    ],
+    "createDate": "2018-03-06T21:30:07.883Z"
+},
+   "name": "D3 Cloud Mining",
+   "coin": "Dash",
+   "algo": "X11",
+   "hashrate": "0.05",
+   "hashrateUnits": "GH/s",
+   "period": "Open-Ended",
+   "payout": "DASH",
+   "maintenance": "See plan T&Cs for full details.",
+   "priceUSD": "7.45",
+   "priceOther": "",
+   "f1": "Custom plan selection",
+   "f2": "",
+   "f3": "",
+   "f4": "",
+   "location": "China",
+   "paymentmethods": "Cryptocurrency",
+   "refURL": "",
+   "refCode": "",
+   "promotion": "",
+   "name1": "43136"
+ }
+]

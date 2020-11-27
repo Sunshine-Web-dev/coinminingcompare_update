@@ -1,0 +1,35 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Blogs -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Articles</h1>
+      <br/>
+      <button class="btn btn-warning" ng-click="newBlog()">Create a New Article</button>
+      <p>
+        <br/>
+        <br/>You can see the Blogs here:</p>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in blogs">
+              <td>{{item.title}}</td>
+              <td>
+                <button class="btn btn-warning" go-click="cpanel/blogs/edit/{{item._id}}">Edit</button>
+                <button class="btn btn-warning" go-click="/blog/{{item.slug}}">View</button>
+                <button class="btn btn-primary" ng-click="delete(item._id)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

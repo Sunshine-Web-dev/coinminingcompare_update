@@ -1,0 +1,94 @@
+<!-- About Page -->
+
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+    <h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+    <h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+    <h2 style="color: white;" go-click="plans">Plans</h2>
+    <h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+    <h2 style="color: white; " go-click="articles">Articles</h2>
+    <h2 style="color: white; " go-click="compare">Compare</h2>
+    <h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+
+<!-- Handle Overlay Menu -->
+<div id="fh5co-wrapper" class="{{ovh}}">
+    <div id="fh5co-page">
+        <!-- Include Header -->
+        <div id="head">
+            <ng-include src="'/header.html'"></ng-include>
+        </div>
+        <div class="fh5co-hero fh5co-hero-2">
+            <div class="fh5co-overlay"></div>
+            <div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/banner-1.png);">
+                <div class="desc ">
+                    <h2><img src="images/cmc-icon.png" width="100" height="100"></h2>
+                    <p class="rubik">
+                        <br/><b>CoinMiningCompare.com is a free service that is available to you to<br/>
+                    compare top cryptocurrency coin mining plans and contracts. We do<br/>the comparing, so you don’t have to.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <!-- end:header-top -->
+        <!-- END fh5co-about -->
+        <div id="fh5co-content-section" class="fh5co-section-gray">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center  ">
+                        <h3>About Us</h3>
+                        <p class="rubik">CoinMiningCompare.com strives to provide you with accurate, up-to-date search results on the latest cryptocurrency coin mining plans and contracts. By working with all the major vendors, you can have peace of mind that we’re getting you the maximum value for your hard-earned dollars.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fh5co-content-section -->
+        <div id="fh5co-services-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center  ">
+                        <h3>Who We Work With</h3>
+                        <p class="rubik">We work with all the major cryptocurrency coin mining service providers. We are experts in highlighting the best that each service has to offer.</p>
+                        <p class="rubik">Thousands of users navigate through our site to find the right plan for their needs. Be it hobbyists, serious investors or the curious – our tool is designed to save you time and effort.</p>
+                        <p class="rubik">If you’d like to work with us, please <a href="mailto:admin@coinminingcompare.com">let us know.</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Partner Section Disabled -->
+        <!-- <div class="partner-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center heading-section ">
+                        <h3>You might have seen us on</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <img src="images/img-p-1.png" width="100%">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Include Footer -->
+        <ng-include src="'/footer.html'"></ng-include>
+    </div>
+</div>
+<script type="text/javascript">
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() { myFunction() };
+  // Get the header
+  var header = document.getElementById("head");
+  // Get the offset position of the navbar
+  if (header) var sticky = header.offsetTop;
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      if(header) header.classList.add("sticky");
+    } else {
+      if(header) header.classList.remove("sticky");
+    }
+  }
+</script>

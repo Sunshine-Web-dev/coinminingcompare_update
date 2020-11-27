@@ -1,0 +1,45 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Companies > Create a New Company -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Create a New Service Provider</h1>
+      <p>
+        <br/>You can create a new company here:</p>
+      <div class="col-md-4">
+        <h5 ng-show="success">
+     <div class="alert alert-success">
+      <strong>Success!</strong> Company added.
+    </div>
+   </h5>
+        <p>
+          <label>Name</label>
+          <input id="name" class="form-control" type="text" ng-model="company.name" required>
+        </p>
+        <p>
+          <label>Website</label>
+          <input id="name" class="form-control" type="text" ng-model="company.website" placeholder="with http://" required>
+        </p>
+        <p>
+          <label>Description</label>
+          <textarea id="ta1" ng-model="company.description" style="display: block; border-color: #ccc" rows="4" cols="50"></textarea>
+        </p>
+        <p>
+          <label>Logo (Square Image)</label>
+          <p>Upload
+            <input type="file" name="myfile" file-input="myfile">
+            <input type="submit" value="Upload" ng-click="uploadFile(myfile)">
+          </p>
+          <p ng-repeat="photo in photos">
+            <img src="{{photo.url}}" height="100">
+          </p>
+        </p>
+        <p>
+          <button style="margin-top:20px" class="btn btn-warning" ng-click="create(company)">Create</button>
+          <button style="margin-top:20px" class="btn btn-primary" ng-click="back()">Cancel</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,258 @@
+<!-- Profitability Calculator Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<!-- end:header-top -->
+		<div id="fh5co-contact" class="">
+			<div class="container con-cu">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+						<h3>Profitability Calculator</h3>
+						<p class="rubik">Select an existing plan or enter your own parameters to calculate mining profitability.</p>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-md-5">
+						<div class="form-group">
+							<label style="font-weight: 600;">Select an existing contract</label>
+							<br/>
+							<br/>
+							<!-- Show Contracts Dropdown -->
+							<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" style="width: 100%;">Select a Contract <span class="caret"></span>
+							</button>
+							<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" style="margin-top: -20px; max-height: 300px; overflow-y: scroll;">
+								<li role="presentation">
+									<div class="input-group input-group-sm search-control"><span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+										<input type="text" class="form-control" placeholder="Query" ng-model="query" style="border-radius: 0px; border: 1px solid #ccc; height: 40px;">
+									</div>
+								</li>
+								<li role="presentation" ng-repeat='item in contracts | filter:query'> <a ng-click="hash(item._id)">{{item.company.name}} {{item.name}} ({{item.algo}}) [{{item.hashrate}} {{item.hashrateUnits}}]</a>
+								</li>
+							</ul>
+							<script>
+								$('.dropdown-menu').find('input').click(function (e) {
+								      e.stopPropagation();
+								    });
+							</script>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<br/>
+						<br/>or</div>
+					<div class="col-md-5">
+						<div class="form-group">
+							<label style="font-weight: 600;">Enter your own contract details
+								<br/>
+								<br/>
+							</label>
+							<select class="form-control" ng-model="algorithm2" ng-change="hash2()" placeholder="Select a Coin">
+								<option value="" selected="">Select a Coin / Algorithm</option>
+								<option value="Bitcoin">Bitcoin / SHA-256</option>
+								<option value="Ethereum">Ethereum / ETHASH</option>
+								<option value="Litecoin">Litecoin / Scrypt</option>
+								<option value="Monero">Monero / CryptoNight</option>
+								<option value="Dash">Dash / X11</option>
+								<option value="Zcash">Zcash / EQUIHASH</option>
+								<option value="None">I'll set values myself</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Hash Rate</label>
+							<input type="text" class="form-control" placeholder="e.g. 100" ng-model="hashrate">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Hash Rate Units</label>
+							<input type="text" class="form-control" placeholder="" ng-model="hashrateUnits" disabled>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Plan Cost</label>
+							<input type="text" class="form-control" placeholder="e.g. 100" ng-model="priceUSD">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Plan Cost Units</label>
+							<input type="text" class="form-control" value="USD" disabled>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Coin</label>
+							<input type="text" class="form-control" ng-model="coin" disabled>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Algorithm</label>
+							<input type="text" class="form-control" ng-model="algo" disabled>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Network Difficulty</label>
+							<input type="text" class="form-control" ng-model="difficulty">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Block Reward</label>
+							<input type="text" class="form-control" ng-model="blockReward">
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="form-group">
+							<label style="font-weight: 600;">Coin to Dollar (USD)</label>
+							<input type="text" class="form-control" ng-model="coinToDollar">
+						</div>
+					</div>
+					<div class="col-md-12 text-center">
+						<div class="form-group">
+							<input type="button" value="Calculate" class="btn btn-warning" ng-click="calculate()" ng-hide="load">
+							<img src="images/loader.gif" ng-show="load">
+						</div>
+					</div>
+				</div>
+				<!-- Show answers on Success -->
+				<div ng-show="success">
+					<div class="row m-t-20">
+						<div class="panel panel-default">
+							<!-- Default panel contents -->
+							<div class="panel-heading">Estimated Expected Coin Earnings</div>
+							<!-- Table -->
+							<table class="table table-hover" style="font-size: 14px;">
+								<thead>
+									<tr>
+										<th>Time Frame</th>
+										<th>Blocks Mined</th>
+										<th>Coins Rewarded</th>
+										<th>Revenue</th>
+										<th>Net Profit</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Yearly</td>
+										<td class="rounded">{{answer.blocksMinedPerYear | number:2}}</td>
+										<td class="rounded">{{answer.coinsRewardedPerYear | number:2 }}</td>
+										<td class="rounded">{{answer.revenuePerYear | number:2}}</td>
+										<td class="rounded">{{answer.netProfitPerYear | number:2}}</td>
+									</tr>
+									<tr>
+										<td>Monthly</td>
+										<td class="rounded">{{answer.blocksMinedPerMonth | number:2}}</td>
+										<td class="rounded">{{answer.coinsRewardedPerMonth | number:2}}</td>
+										<td class="rounded">{{answer.revenuePerMonth | number:2}}</td>
+										<td class="rounded">{{answer.netProfitPerMonth | number:2}}</td>
+									</tr>
+									<tr>
+										<td>Weekly</td>
+										<td class="rounded">{{answer.blocksMinedPerWeek | number:2}}</td>
+										<td class="rounded">{{answer.coinsRewardedPerWeek | number:2}}</td>
+										<td class="rounded">{{answer.revenuePerWeek | number:2}}</td>
+										<td class="rounded">{{answer.netProfitPerWeek | number:2}}</td>
+									</tr>
+									<tr>
+										<td>Daily</td>
+										<td class="rounded">{{answer.blocksMinedPerDay | number:2}}</td>
+										<td class="rounded">{{answer.coinsRewardedPerDay | number:2}}</td>
+										<td class="rounded">{{answer.revenuePerDay | number:2}}</td>
+										<td class="rounded">{{answer.netProfitPerDay | number:2}}</td>
+									</tr>
+									<tr>
+										<td>Hourly</td>
+										<td class="rounded">{{answer.blocksMinedPerHour | number:2}}</td>
+										<td class="rounded">{{answer.coinsRewardedPerHour | number:2}}</td>
+										<td class="rounded">{{answer.netProfitPerHour | number:2}}</td>
+										<td class="rounded">{{answer.revenuePerHour | number:2}}</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="row m-t-20">
+						<div class="col-md-4 ">
+							<div class="gray-box">
+								<div class="box-content">
+									<p><small>Days to Generate One Block Mining Solo</small>
+									</p>
+									<h4 class="rubik">{{answer.DaystoGenerateOneBlockMiningSolo}}</h4>
+									<p style="font-size: 11px; color:grey;">With a hashtime of {{answer.hashtime}} seconds
+										<br/>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="gray-box">
+								<div class="box-content">
+									<p><small>Days to Generate One Coin</small>
+										<br/>&nbsp;</p>
+									<h4 class="rubik">{{answer.DaystoGenerateOneCoin}}</h4>
+									<p style="font-size: 11px; color:grey;">(can vary greatly depending on the current exchange rates)</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 ">
+							<div class="gray-box">
+								<div class="box-content">
+									<p><small>Days to Break Even</small>
+										<br/>&nbsp;</p>
+									<h4 class="rubik">{{answer.DaystoBreakEven}}</h4>
+									<p style="font-size: 11px; color:grey;">(can vary greatly depending on the current exchange rates)</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-3"></div>
+						<div class="col-md-6">
+							<br/>
+							<br/>
+							<p class="rubik text-center" style="color:#ccc; font-size: 11px;">Disclaimer: The CoinMiningCompare.com Profitability calculator uses the CryptoCompare API for the latest Network Difficulty and Block Reward. Live exchange rates are captured from the CoinMarketCap API. While CoinMiningCompare.com makes every effort to ensure the information we provide you is current and up to date, we cannot guarantee the reliability of this data.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END fh5co-contact -->
+		<!-- END map -->
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>

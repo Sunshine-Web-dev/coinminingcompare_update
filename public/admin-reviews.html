@@ -1,0 +1,60 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Reviews -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Reviews</h1>
+      <!-- <br/><button class="btn btn-warning" ng-click="newAdmin()">Create a New Admin</button> -->
+      <p>
+        <br/>
+        <br/>You can see the reviews added to different contracts here. A review can be added from the contract page:</p>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>User</th>
+              <th>Review and Rating</th>
+              <th>Contract</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in reviews">
+              <td style="text-align: center; font-size: 10px; font-weight: 600;">
+                <img src="{{item.user.imageUrl}}" width="40" height="40" style="border-radius: 1000px;" />
+                <br/>{{item.user.name}}
+                <br/>{{item.user.email}}</td>
+              <td>
+                <div class="col-md-10"> <i class="icon-star" ng-if="item.rating=='5'"></i>
+                  <i class="icon-star" ng-if="item.rating=='5'"></i>
+                  <i class="icon-star" ng-if="item.rating=='5'"></i>
+                  <i class="icon-star" ng-if="item.rating=='5'"></i>
+                  <i class="icon-star" ng-if="item.rating=='5'"></i>
+                  <i class="icon-star" ng-if="item.rating=='4'"></i>
+                  <i class="icon-star" ng-if="item.rating=='4'"></i>
+                  <i class="icon-star" ng-if="item.rating=='4'"></i>
+                  <i class="icon-star" ng-if="item.rating=='4'"></i>
+                  <i class="icon-star" ng-if="item.rating=='3'"></i>
+                  <i class="icon-star" ng-if="item.rating=='3'"></i>
+                  <i class="icon-star" ng-if="item.rating=='3'"></i>
+                  <i class="icon-star" ng-if="item.rating=='2'"></i>
+                  <i class="icon-star" ng-if="item.rating=='2'"></i>
+                  <i class="icon-star" ng-if="item.rating=='1'"></i>
+                  <span>{{item.rating}}/5</span>
+                  <p>{{item.text}}</p>
+                </div>
+              </td>
+              <td>
+                <button class="btn btn-warning" go-click="/plan/{{item.contract}}">View</button>
+              </td>
+              <td>
+                <button class="btn btn-primary" ng-click="delete(item._id)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

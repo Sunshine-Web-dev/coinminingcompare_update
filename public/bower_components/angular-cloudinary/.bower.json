@@ -1,0 +1,36 @@
+{
+  "name": "angular-cloudinary",
+  "main": "angular-cloudinary.js",
+  "version": "1.2.4",
+  "authors": [
+    "Nicola Peduzzi <thenikso@gmail.com>"
+  ],
+  "description": "AngularJS only module to handle Cloudinary image upload and display",
+  "keywords": [
+    "cloudinary",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1",
+    "ng-file-upload": "~4.2.1"
+  },
+  "homepage": "https://github.com/thenikso/angular-cloudinary",
+  "_release": "1.2.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "v1.2.4",
+    "commit": "433bcd250289109006f087bc536c62483ba7a6f4"
+  },
+  "_source": "https://github.com/thenikso/angular-cloudinary.git",
+  "_target": "^1.2.4",
+  "_originalSource": "angular-cloudinary",
+  "_direct": true
+}

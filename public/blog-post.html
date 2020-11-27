@@ -1,0 +1,58 @@
+<!-- Single Blog Post Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover fh5co-cover_2 text-left" data-stellar-background-ratio="0.5" style="background-image: url({{blog.photo[0].url}});">
+				<div class="desc about-detail pd-l-120 ">
+					<!-- <h2><img src="images/logo/logo.png"></h2> -->
+					<h3 style="font-size: 32px;">{{blog.title}}</h3>
+					<p>Added {{blog.createDate}} by {{blog.authorName}}</p>
+				</div>
+			</div>
+		</div>
+		<!-- end:header-top -->
+		<div class="partner-section">
+			<div class="container">
+				<div class="row">
+					<div ng-bind-html-unsafe="blog.text">
+						<ng-bind-html ng-bind-html="blog.text"></ng-bind-html>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>

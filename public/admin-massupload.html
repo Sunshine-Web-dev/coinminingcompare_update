@@ -1,0 +1,24 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Contracts > Mass Upload -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Mass Upload Contracts</h1>
+      <p>
+        <br/>
+        <br/>You can mass upload contracts here. All previous contracts will be deleted when you upload. The columns of the CSV you upload must be the following: Company, Plan Name, Coin, Algorithm, Hashrate, Units, Contract Period (Months), Payout Currency, Maintenance Fee (USD), Price (USD), Price (Other), Feature 1, Feature 2, Feature 3, Feature 4, Location, Payment Methods, Referral URL, Referral Code, Promotion.</p>
+        <!-- File Reader parses CSV -->
+      <input type="file" file-reader="fileContent" />
+      <div ng-if="fileContent" class="content">
+      </div>
+      <br/>
+      <!-- Handle two types of success messages -->
+      <div class="alert alert-success" ng-show="success1"> <strong>Success!</strong> File Uploaded. Click "Update Database" button to overwrite records.</div>
+      <div class="alert alert-success" ng-show="success2"> <strong>Success!</strong> Database has been updated successfully.</div>
+      <br/>
+      <button class="btn btn-warning" ng-click="upload()" ng-hide="success1">Upload CSV File</button>
+      <button class="btn btn-warning" ng-click="update()" ng-show="success1">Update Database</button>
+    </div>
+  </div>
+</div>

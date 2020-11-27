@@ -1,0 +1,38 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > News -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">News</h1>
+      <br/>
+      <!-- Fetch First and then let admin publish the fetched news -->
+      <button class="btn btn-warning" ng-click="cryptonews()">Fetch News</button>
+      <p ng-repeat="item in fetched.items">{{item.title}} <a href="" ng-click="publish(item)">(Publish on CoinMiningCompare)</a>
+      </p>
+      <p>
+        <br/>
+        <br/>You can see the news articles here:</p>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in news">
+              <td>{{item.title}}</td>
+              <td>
+                <button class="btn btn-warning" go-click="cpanel/news/edit/{{item._id}}">Edit</button>
+                <button class="btn btn-warning" go-click="/news/{{item.slug}}">View</button>
+                <button class="btn btn-primary" ng-click="delete(item._id)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,423 @@
+<!-- Landing Page -->
+<!-- In-Page CSS -->
+<style type="text/css">
+	.js {
+	  opacity: 1;
+	}
+</style>
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<div id="methinks">
+			<!-- Landing Page Header -->
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<div class="nav-header">	<a ng-click="menu1()" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+							<h1 id="fh5co-logo"><a href="/"><img src="images/logo/logo.png"></a></h1>
+							<!-- START #fh5co-menu-wrap -->
+							<nav id="fh5co-menu-wrap" class="pull-left" role="navigation">
+								<ul class="sf-menu" id="fh5co-primary-menu">
+									<li class="">	<a href="/plan-finder-step-1">Plan Finder</a>
+									</li>
+									<li class="">	<a href="/plans">Plans</a>
+									</li>
+									<li>	<a href="/profitability-calculator" class="fh5co-sub-ddown">Profitability</a>
+									</li>
+									<li>	<a href="/articles" class="fh5co-sub-ddown">Articles</a>
+									</li>
+									<li>	<a href="/news" class="fh5co-sub-ddown">News</a>
+									</li>
+								</ul>
+							</nav>
+							<nav id="fh5co-menu-wrap" class="pull-right" role="navigation">
+								<ul class="sf-menu" id="fh5co-primary-menu_1">
+									<!-- <li class="">
+									<a href="index.html">Login</a>
+								</li> -->
+									<li>	<a href="/compare" class="btn btn-warning">Compare ({{compareNo}})</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+			</div>
+		</div>
+		<div class="fh5co-hero">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover text-center" data-stellar-background-ratio="0.5" style="background-image: url(images/banner-1.png);">
+				<div class="desc ">
+					<h2 style="font-weight: 600 !important;">Compare Cloud Mining Plans</h2>
+					<span class="rubik">Which coin do you wish to mine? <a href="/plan-finder-step-2" class="text-orange"><div class="dropdowny">
+  <span ng-click="answer('SHA-256')">Bitcoin <i class="fa fa-caret-down"></i></span>
+					<div class="dropdowny-content">
+						<p ng-click="answer('SHA-256')">
+							<img src="images/coins/btc.png" width="22" height="22">Bitcoin</p>
+						<p ng-click="answer('ETHASH')">
+							<img src="images/coins/eth.png" width="22" height="22">Ethereum</p>
+						<p ng-click="answer('Scrypt')">
+							<img src="images/coins/ltc.png" width="22" height="22">Litecoin</p>
+						<p ng-click="answer('CryptoNight')">
+							<img src="images/coins/xmr.png" width="22" height="22">Monero</p>
+						<p ng-click="answer('X11')">
+							<img src="images/coins/dash.png" width="22" height="22">Dash</p>
+						<p ng-click="answer('EQUIHASH')">
+							<img src="images/coins/zec.png" width="22" height="22">Zcash</p>
+					</div>
+				</div>
+				</a>
+				</span>
+				<p class="rubik" style="margin-top: -100px;"><a href="/plans">Choose from all the top service providers</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- end:header-top -->
+	<div id="fh5co-partner">
+		<div class="container">
+			<div class="partner-wrap hidden-on-mobile">
+				<div class="wrap" style="opacity: .7;">
+					<img class="img" src="images/logo1.png" alt="Genesis Mining" width="100px">
+					<img class="img" src="images/logo2.png" alt="Hashflare" width="100px">
+					<img class="img-" src="images/logo3.png" alt="Eubot" width="100px">
+					<img class="img-" src="images/logo4.png" alt="MyCoinCloud" width="100px">
+					<img class="img-" src="images/logo5.png" alt="Nuvoo" width="100px">
+					<br/>
+					<img class="img" src="images/logo6.png" alt="Hashflare" width="100px">
+					<img class="img-" src="images/logo7.png" alt="Eubot" width="100px">
+					<img class="img-" src="images/logo8.png" alt="MyCoinCloud" width="100px">
+					<img class="img-" src="images/logo9.png" alt="Nuvoo" width="100px">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="fh5co-services-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center heading-section">
+					<div class="show-on-mobile">
+						<br/>
+						<br/>
+					</div>
+					<h3 style="margin-top: -50px;">How it works</h3>
+					<p class="rubik">Compare cryptocurrency cloud mining plans online</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4">
+					<div class="services ">
+						<img src="images/img1.png">
+						<h3 style="font-weight: 600;">Get acquainted</h3>
+						<p class="rubik">Tell us a few details about the cloud mining services you're looking for.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="services ">
+						<img src="images/img2.png">
+						<h3 style="font-weight: 600;">Get fitted</h3>
+						<p class="rubik">Customise your plan and ensure it fits your needs so you know you're making the right choice.</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<div class="services ">
+						<img src="images/img3.png">
+						<h3 style="font-weight: 600;">Get connected</h3>
+						<p class="rubik">Sign up to your chosen plan through us to get the best deal on the market.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-md-offset-4">
+					<button class="btn btn-block btn-warning" go-click="plan-finder-step-1">Get Started</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END What we do -->
+	<div id="fh5co-content-section" class="fh5co-section-gray">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+					<div class="show-on-mobile">
+						<br/>
+						<br/>
+					</div>
+					<h3 style="margin-top: -40px;">Featured Packages</h3>
+					<p class="rubik">Check out some of these amazing offers below.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 bottom-margin" style="cursor: pointer;" go-click="plan/{{contracts[0].slug}}">
+					<div class="testimony featured0">
+						<blockquote class="text-center">
+							<div class="box-or text-right hidden-on-mobile">Featured</div>
+							<div class="content-holder-plan">
+								<img src="{{contracts[0].company.photo[0].url}}" width="100" style="z-index: 999;">
+								<h3 style="margin-top: 20px;z-index: 1000;">{{contracts[0].name}}</h3>
+								<h2 style="margin-top: -15px;">US${{contracts[0].priceUSD}}</h2>
+								<p class="btn-info-s" style="margin-top: -25px;">{{contracts[0].period}}</p>
+							</div>
+						</blockquote>
+						<div class="center-holder">
+							<figure>
+								<img class="" src="images/plan-img.png" alt="Hash rate" style="width:60px; height:55px;">
+							</figure>
+							<p class="author text-right">MINE: {{contracts[0].coin}} / {{contracts[0].algo}}</br>HASH RATE: {{contracts[0].hashrate}} {{contracts[0].hashrateUnits}}</p>
+						</div>
+						<blockquote class="text-center">
+							<div class="row">
+								<div class="col-md-3">
+									<br/>	<i class="icon-star"></i>
+								</div>
+								<div class="col-md-9 text-left center-on-mobile">	<small>Estimated Revenue</small>
+									<h3>${{contracts[0].earnings.revenuePerYear | number:2}}* <span><small>annually</small></span> </h3>
+									<small>* Based on present day exchange<br/>rates and network difficulty</small>
+								</div>
+								<div class="col-md-12 m-t-15 featuredbtn0">
+									<button class="btn  btn-block btn-warning">Sign up</button>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-xs-12 show-on-mobile">
+					<hr/>
+				</div>
+				<div class="col-md-4  bottom-margin" style="cursor: pointer;" go-click="plan/{{contracts[1].slug}}">
+					<div class="testimony featured1">
+						<blockquote class="text-center">
+							<div class="box-or text-right hidden-on-mobile">Featured</div>
+							<div class="content-holder-plan">
+								<img src="{{contracts[1].company.photo[0].url}}" width="100" style="z-index: 999;">
+								<h3 style="margin-top: 20px;z-index: 1000;">{{contracts[1].name}}</h3>
+								<h2 style="margin-top: -15px;">US${{contracts[1].priceUSD}}</h2>
+								<p class="btn-info-s" style="margin-top: -25px;">{{contracts[1].period}}</p>
+							</div>
+						</blockquote>
+						<div class="center-holder">
+							<figure>
+								<img class="" src="images/plan-img.png" alt="Hash rate" style="width:60px; height:55px;">
+							</figure>
+							<p class="author text-right">MINE: {{contracts[1].coin}} / {{contracts[1].algo}}</br>HASH RATE: {{contracts[1].hashrate}} {{contracts[1].hashrateUnits}}</p>
+						</div>
+						<blockquote class="text-center">
+							<div class="row">
+								<div class="col-md-3">
+									<br/>	<i class="icon-star"></i>
+								</div>
+								<div class="col-md-9 text-left center-on-mobile">	<small>Estimated Revenue</small>
+									<h3>${{contracts[1].earnings.revenuePerYear | number:2}}* <span><small>annually</small></span> </h3>
+									<small>* Based on present day exchange<br/>rates and network difficulty</small>
+								</div>
+								<div class="col-md-12 m-t-15 featuredbtn1">
+									<button class="btn  btn-block btn-warning">Sign up</button>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+				</div>
+				<div class="col-xs-12 show-on-mobile">
+					<hr/>
+				</div>
+				<div class="col-md-4 bottom-margin" style="cursor: pointer;" go-click="plan/{{contracts[2].slug}}">
+					<div class="testimony featured2">
+						<blockquote class="text-center">
+							<div class="box-or text-right hidden-on-mobile">Featured</div>
+							<div class="content-holder-plan">
+								<img src="{{contracts[2].company.photo[0].url}}" width="100" style="z-index: 999;">
+								<h3 style="margin-top: 20px;z-index: 1000;">{{contracts[2].name}}</h3>
+								<h2 style="margin-top: -15px;">US${{contracts[2].priceUSD}}</h2>
+								<p class="btn-info-s" style="margin-top: -25px;">{{contracts[2].period}}</p>
+							</div>
+						</blockquote>
+						<div class="center-holder">
+							<figure>
+								<img class="" src="images/plan-img.png" alt="Hash rate" style="width:60px; height:55px;">
+							</figure>
+							<p class="author text-right">MINE: {{contracts[2].coin}} / {{contracts[2].algo}}</br>HASH RATE: {{contracts[2].hashrate}} {{contracts[2].hashrateUnits}}</p>
+						</div>
+						<blockquote class="text-center">
+							<div class="row">
+								<div class="col-md-3">
+									<br/>	<i class="icon-star"></i>
+								</div>
+								<div class="col-md-9 text-left center-on-mobile">	<small>Estimated Revenue</small>
+									<h3>${{contracts[2].earnings.revenuePerYear | number:2}}* <span><small>annually</small></span> </h3>
+									<small>* Based on present day exchange<br/>rates and network difficulty</small>
+								</div>
+								<div class="col-md-12 m-t-15 featuredbtn2">
+									<button class="btn  btn-block btn-warning">Sign up</button>
+								</div>
+							</div>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+			<div class="row ">
+				<div class="col-md-4  m-t-45 col-md-offset-4 text-center">
+					<button class="btn btn-block btn-warning" go-click="plans">Discover more</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- fh5co-content-section -->
+	<div id="fh5co-blog-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+					<div class="show-on-mobile">
+						<br/>
+						<br/>
+					</div>
+					<h3 style="margin-top: -40px;">Articles</h3>
+					<p class="rubik">Get some information about the latest mining trends</p>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row equal-height">
+				<div class="col-xs-12 col-md-3" ng-repeat="item in blogs | orderBy:'-createTimestamp' | limitTo: 4">
+					<div class="thumbnail" style="border: 0px;">
+						<img src="{{item.photo[0].url}}" alt="{{item.title}}" class="img-fullsize" go-click="/article/{{item.slug}}" style="cursor: pointer;">
+						<div class="caption">
+							<div class="blog-text caption">
+								<div class="prod-title">
+									<h3 style="font-weight: 600;"><a href="/article/{{item.slug}}" style="font-size: 18px; color: #0b141e;">{{item.title}}</a></h3>
+									<p class="rubik">{{item.createDate}}</p>	<a href="/article/{{item.slug}}" class="text text-orange">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-xs-6.col-md-3 -->
+			</div>
+			<div class="row ">
+				<div class="col-md-4  m-t-45 col-md-offset-4 text-center">
+					<button class="btn btn-block btn-warning" go-click="articles">Discover more</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="fh5co-section-gray map-holder hidden-on-mobile">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+					<h3 style="margin-top: -30px;"><br/>Our Partners</h3>
+					<p class="rubik">Take a look at some of our partner providers</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<img src="images/map.png" width="1000px" style="margin-bottom: -90px;">
+					<a ng-click="landingLoc('5a86267160bf14473ad47c68')" data-tooltip2='Genesis Mining' style="top: -340px; margin-left: 450px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a8e36be08bf6fbf5e9b5f2c')" data-tooltip4="Hashflare" style="top: -330px; margin-left: 550px; left: -500px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a9f05894d08315fbfc82423')" data-tooltip3="Nuvoo Mining" style="top: -320px; margin-left: 550px; left: -300px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a9f06134d08315fbfc82424')" data-tooltip6="Eobot" style="top: -320px; margin-left: 550px; left: -570px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a9f06864d08315fbfc82425')" data-tooltip7="MyCoinCloud" style="top: -320px; margin-left: 550px; left: -30px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a9f085f4d08315fbfc82429')" data-tooltip5="ViaBTC" style="top: -420px; margin-left: 550px; left: -210px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+					<a ng-click="landingLoc('5a9f078b4d08315fbfc82427')" data-tooltip8="Hashcan" style="top: -500px; margin-left: 550px; left: -500px;">
+						<img src="images/giphy.png" width="4%">
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Partner Section Disabled -->
+	<!-- 	<div class="partner-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+						<h3>You might have seen us on</h3>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 ">
+						<img src="images/img-p-1.png" width="100%">
+						
+					</div>
+				</div>
+			</div>
+		</div> -->
+	<!-- fh5co-blog-section -->
+	<!-- Include Footer -->
+	<ng-include src="'/footer.html'"></ng-include>
+</div>
+<!-- END fh5co-page -->
+</div>
+<!-- END fh5co-wrapper -->
+<script type="text/javascript">
+	// Handle menu on scroll
+	$(document).ready(function() {
+		if (/Android|BlackBerry|iPhone|iPad|iPod|webOS/i.test(navigator.userAgent) === false) {
+			$(window).scroll(function() {
+				var top = $(this).scrollTop();
+				if (top > 1) {
+					if(document.getElementById("methinks")) {
+						// replace inner HTML if Height from Top is less then 1
+						document.getElementById("methinks").innerHTML = '<div id="head"><div id="fh5co-header"> <header id="fh5co-header-section" class="inner-haeder"> <div class="container"> <div class="nav-header"> <a href="/" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a> <h1 id="fh5co-logo"><a href="/"><img src="images/logo/logo.png"></a></h1> <nav id="fh5co-menu-wrap" class="pull-left" role="navigation"> <ul class="sf-menu" id="fh5co-primary-menu"> <li class=""> <a href="/plan-finder-step-1">Plan Finder</a> </li> <li class=""> <a href="/plans">Plans</a> </li> <li> <a href="/profitability-calculator" class="fh5co-sub-ddown">Profitability</a> </li> <li> <a href="/articles">Articles</a> </li>  <li> <a href="/news" class="fh5co-sub-ddown">News</a> </li> </ul> </nav> <nav id="fh5co-menu-wrap" class="pull-right" role="navigation"> <ul class="sf-menu" id="fh5co-primary-menu_1"> <li> <a href="/compare" class="btn btn-warning">Compare</a> </li> </ul> </nav> </div> </div> </div> </div>';
+						// Get the header
+						var header = document.getElementById("head");
+						// Get the offset position of the navbar
+						if (header) var sticky = header.offsetTop;
+						if (window.pageYOffset >= sticky) {
+							if (header) header.classList.add("sticky");
+						} else {
+							if (header) header.classList.remove("sticky");
+						}
+					}
+				} else {
+					if(document.getElementById("methinks")) {
+						// replace inner HTML if Height from Top is less then 1
+						document.getElementById("methinks").innerHTML = '<div id="fh5co-header"> <header id="fh5co-header-section"> <div class="container"> <div class="nav-header"> <a href="/" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a> <h1 id="fh5co-logo"><a href="index.html"><img src="images/logo/logo.png"></a></h1> <!-- START #fh5co-menu-wrap --> <nav id="fh5co-menu-wrap" class="pull-left" role="navigation"> <ul class="sf-menu" id="fh5co-primary-menu"> <li class=""> <a href="/plan-finder-step-1">Plan Finder</a> </li> <li class=""> <a href="/plans">Plans</a> </li> <li> <a href="/profitability-calculator" class="fh5co-sub-ddown">Profitability</a> </li> <li> <a href="/articles">Articles</a> </li>  <li> <a href="/news" class="fh5co-sub-ddown">News</a> </li> </ul></nav> <nav id="fh5co-menu-wrap" class="pull-right" role="navigation"> <ul class="sf-menu" id="fh5co-primary-menu_1"> <!-- <li class=""> <a href="index.html">Login</a> </li> --> <li> <a href="/compare" class="btn btn-warning">Compare</a> </li> </ul> </nav> </div> </div> </header> </div>';
+					}
+				}
+			});
+		}
+	});
+	window.onscroll = function() {
+		myFunction()
+	};
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+	$('a[data-toggle="tooltip"]').tooltip({
+		animated: 'fade',
+		placement: 'bottom',
+		html: true
+	});
+</script>

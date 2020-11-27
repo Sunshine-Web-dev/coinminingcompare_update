@@ -1,0 +1,363 @@
+<!-- Cloud Mining Plans Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<div class="fh5co-hero fh5co-hero-2">
+			<div class="fh5co-overlay"></div>
+			<div class="fh5co-cover fh5co-cover_2 text-left" data-stellar-background-ratio="0.5" style="background-image: url(images/banner-1.png);">
+				<div class="desc about-detail plan-page-head pd-l-120 ">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<h3>Cloud Mining Plans</h3>
+									<p class="rubik">Find a cryptocurrency coin mining plan that suits your needs. We’re a free coin mining comparison service for both investors and hobbyists.</p>
+									<p>Let us find the right plan for you:</p>
+									<button class="btn  btn-lg btn-warning" go-click="plan-finder-step-1">Plan Finder</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <h2><img src="images/logo/logo.png"></h2> -->
+				</div>
+			</div>
+		</div>
+		<!-- end:header-top -->
+		<div class="partner-section single-page-main">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12  ">
+						<h3 class="m-b-0">Compare Cloud Mining Plans & Prices</h3>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-4">
+						<h4 class="text-center">Filter by Service Provider</h4>
+						<div class="row">
+							<div class="col-xs-4 col-md-2 pd-0" ng-click="resetFilters()" style="margin-bottom: 10px;">
+								<div class="logo-holder-plan">
+									<p style="font-size: 11px; padding-top: 10px; cursor: pointer;"><b>Any</b>
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-4 col-md-2 pd-0" ng-repeat="company in companies | limitTo: 4" style="margin-bottom: 10px;">
+								<div class="logo-holder-plan" ng-click="companyFilter(company._id)">
+									<p data-tooltip="{{company.name}}">
+										<img width="100%" class="img-circle" src="{{company.photo[0].url}}">
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-4 col-md-2 pd-0" style="margin-bottom: 20px;">
+								<div class="logo-holder-plan" style="cursor: pointer;" data-toggle="modal" data-target="#myModal">
+									<p><i class="icon-plus"></i>
+									</p>
+									<p>More</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<h4 class="text-center">Filter by Plan Features</h4>
+						<div class="row">
+							<div class="col-md-1 pd-0 text-center"></div>
+							<div class="col-xs-3 col-md-2 pd-0" ng-click="resetFilters()">
+								<div class="logo-holder-plan">
+									<p style="font-size: 11px; padding-top: 10px; cursor: pointer;"><b>Any</b>
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-3 col-md-2 pd-0 text-center">
+								<div class="logo-holder-plan" ng-click="featureFilter('Open-Ended Bitcoin Mining')">
+									<p style="font-size: 18px; cursor: pointer; padding-top: 10px;" data-tooltip="Open-Ended Bitcoin Mining"><i class="fas fa-arrows-alt-h"></i>
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-3 col-md-2 pd-0 text-center">
+								<div class="logo-holder-plan" ng-click="featureFilter('Custom plan selection')">
+									<p style="font-size: 18px; cursor: pointer; padding-top: 10px;" data-tooltip="Custom plan selection"><i class="fas fa-user"></i>
+									</p>
+								</div>
+							</div>
+							<div class="col-xs-3 col-md-2 pd-0 text-center" style="margin-bottom: 20px;">
+								<div class="logo-holder-plan" ng-click="featureFilter('Automatic payout in BTC')">
+									<p style="font-size: 18px; cursor: pointer; padding-top: 10px;" data-tooltip="Automatic payout in BTC"><i class="fas fa-credit-card"></i>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<h4 class="text-center">Investment (${{investment}})</h4>
+						<div class="row m-t-55">
+							<div class="col-md-12 range-slider text-center">
+								<input type="range" min="100" max="100000" value="50000" step="100" class="slider" id="myRange" ng-model="investment" ng-change="investmentFilter(investment)">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<h4 class="text-center"></h4>
+						<div class="row">
+							<div class="col-xs-12 col-md-12 text-center">
+								<div class="logo-holder-plan" ng-click="resetFilters()">
+									<p style="font-size: 12px; cursor: pointer; padding-top: 4px;">Reset filters</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-10">	<a class='btn btn-default' ng-click="algoFilter('SHA-256')">SHA-256</a>
+						<a class='btn btn-default' ng-click="algoFilter('ETHASH')">ETHASH</a>
+						<a class='btn btn-default' ng-click="algoFilter('Scrypt')">Scrypt</a>
+						<a class='btn btn-default' data-toggle="modal" data-target="#myModal2">+ More</a>
+						<br/>
+						<br/>	<a class='btn btn-default' ng-click="locFilter('United States')">United States</a>
+						<a class='btn btn-default' ng-click="locFilter('China')">China</a>
+						<a class='btn btn-default' ng-click="locFilter('Iceland')">Iceland</a>
+						<a class='btn btn-default' data-toggle="modal" data-target="#myModal3">+ More</a>
+						<br/>
+						<br/>
+					</div>
+					<div class="col-md-2">
+						<select class="form-control" ng-model="sortorder">
+							<option value="-priceUSD">Sort by</option>
+							<option value="+priceUSD">Price (Ascending - Descending)</option>
+							<option value="-priceUSD">Price (Descending - Ascending)</option>
+							<option value="+earnings.revenuePerYear">Earnings (Low - High)</option>
+							<option value="-earnings.revenuePerYear">Earnings (High - Low)</option>
+						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+			<img src="images/loader.gif" ng-show="load">
+		</div>
+		<p class="rubik text-center" ng-if="contracts.length=='0'">Sorry, there are no plans available for the responses you've given us. Please try again or click 'Reset Filters' to view all plans.</p>
+		<div class="plan-holder-main center-on-mobile" ng-repeat="item in contracts | orderBy:sortorder">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3" go-click="/plan/{{item.slug}}">
+						<h3>{{item.company.name}} {{item.name}}</h3>
+						<p class="btn-info-s">{{item.period}}</p>
+						<ul>
+							<li ng-if="item.f1">
+								<p class="rubik"> <i class="icon-check"></i> {{item.f1}}</p>
+							</li>
+							<li ng-if="item.f2">
+								<p class="rubik"> <i class="icon-check"></i> {{item.f2}}</p>
+							</li>
+							<li ng-if="item.f3">
+								<p class="rubik"> <i class="icon-check"></i> {{item.f3}}</p>
+							</li>
+							<li ng-if="item.f4">
+								<p class="rubik"> <i class="icon-check"></i> {{item.f4}}</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-md-2 center-on-mobile" style="text-align: right;">
+						<img width="60%" src="{{item.company.photo[0].url}}" alt="{{item.company.name}} {{item.name}}" class="planimage">
+					</div>
+					<div class="col-md-3 border-div text-center hidden-on-mobile">
+						<div class="row">
+							<div class="col-md-6">
+								<p><small>Hashrate</small>
+									<br/>{{item.hashrate}} {{item.hashrateUnits}}</p>
+								<img width="50%" style="margin-top: 10px;" src="images/meter.png">
+							</div>
+							<div class="col-md-6">
+								<p><small>Algorithm</small>
+									<br/>{{item.algo}}</p>
+								<img width="50%" src="images/list.png">
+							</div>
+							<div class="col-md-12 br-t">
+								<p style="font-size: 18px;">	<a data-tooltip="Open-Ended" style="color: grey;"><i class="fas fa-arrows-alt-h" ng-if="item.openEnded" ></i></a>
+									<a data-tooltip="Custom Plan" style="color: grey;"><i class="fas fa-user" ng-if="item.customPlan" ></i></a>
+									<a data-tooltip="Automatic Payments" style="color: grey;"><i class="fas fa-credit-card" ng-if="item.autoPay" ></i></a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-2 text-center">
+						<h2 ng-show="item.priceUSD != ''">${{item.priceUSD}}</h2>
+						<h3 ng-show="item.priceUSD == ''">{{item.priceOther}}</h3>
+						<p style="font-size: 11px;" ng-show="item.earnings">With annual earnings of ${{item.earnings.revenuePerYear | number:2}}</p>	<span class="label label-danger" ng-if="item.deal">Exclusive Deal</span>
+						<p><small ng-if="item.promotion">{{item.promotion}}.</small>  <small ng-if="item.promotion">Use the code {{item.refCode}}.</small>
+						</p>
+					</div>
+					<div class="col-md-2">
+						<button class="btn btn-block btn-warning" go-click="/plan/{{item.slug}}">View Package</button>
+						<button class="btn btn-block btn-warning" ng-click="compare(item._id)">Compare</button>	<a class="btn btn-block btn-black" href="{{item.refURL}}" target="_blank">Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<!-- Modal: Filter contracts by Providers -->
+<div class="modal fade" id="myModal" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Search by Providers</h4>
+			</div>
+			<div class="modal-body">
+				<p>Click a provider name to filter searches</p>
+				<div class="list-group">
+					<a style="cursor: pointer;" class="list-group-item" ng-repeat="company in companies" ng-click="companyFilter(company._id)" data-dismiss="modal">
+						<h4 class="list-group-item-heading">{{company.name}}</h4>
+						<p class="list-group-item-text">{{company.url}}</p>
+					</a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal: Filter Contracts by Coin/Algorithm -->
+<div class="modal fade" id="myModal2" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Filter by
+					<span class="author" ng-show="switchy">Algorithm</span>
+					<span class="author" ng-hide="switchy">Coin</span> </h4>
+			</div>
+			<div class="modal-body">
+				<p>Click a <span class="author" ng-show="switchy">algorithm</span>
+					<span class="author" ng-hide="switchy">coin</span> to filter searches</p>
+				<div class="list-group" ng-hide="switchy">
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('SHA-256')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Bitcoin</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('ETHASH')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Ethereum</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('Scrypt')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Litecoin</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('CryptoNight')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Monero</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('X11')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Dash</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('EQUIHASH')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Zcash</h4>
+					</a>
+				</div>
+				<div class="list-group" ng-show="switchy">
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('SHA-256')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">SHA-256</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('ETHASH')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">ETHASH</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('Scrypt')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Scrypt</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('CryptoNight')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">CryptoNight</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('X11')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">X11</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="algoFilter('EQUIHASH')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">EQUIHASH</h4>
+					</a>
+				</div>
+				<div style="">Beginner
+					<label class="switchy" style="margin-top: 10px; margin-bottom: -10px;">
+						<input type="checkbox" ng-model="switchy"> <span class="slidery roundy"></span>
+					</label>Expert</div>
+				<br/>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal: Filter Contracts by Location -->
+<div class="modal fade" id="myModal3" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Filter by Location</h4>
+			</div>
+			<div class="modal-body">
+				<p>Click a location to filter searches</p>
+				<div class="list-group">
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('United States')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">United States</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('China')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">China</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('Iceland')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Iceland</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('Canada')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Canada</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('Bulgaria')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Bulgaria</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('Romania')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Romania</h4>
+					</a>
+					<a style="cursor: pointer;" class="list-group-item" ng-click="locFilter('Estonia')" data-dismiss="modal">
+						<h4 class="list-group-item-heading">Estonia</h4>
+					</a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>

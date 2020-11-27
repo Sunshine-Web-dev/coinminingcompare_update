@@ -1,0 +1,48 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Contracts -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Contracts</h1>
+      <br/>
+      <button class="btn btn-warning" ng-click="newContract()">Create a New Contract</button>
+      <button class="btn btn-warning" ng-click="deleteAll()">Mass Delete</button>
+      <button class="btn btn-warning" go-click="cpanel/massupload">Mass Upload</button>
+      <p>
+        <br/>
+        <br/>You can see the Contracts here:</p>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Name</th>
+              <th>Coin/Algo</th>
+              <th>Price (USD)</th>
+              <th>Location</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in contracts">
+              <td>{{item.company.name}}</td>
+              <td>{{item.name}}</td>
+              <td>{{item.coin}} / {{item.algo}}</td>
+              <td>{{item.priceUSD}}</td>
+              <td>{{item.location}}</td>
+              <td>
+                <button class="btn btn-warning" go-click="/cpanel/contracts/edit/{{item._id}}">Edit</button>
+                <button class="btn btn-warning" ng-click="feature(item._id)" ng-hide="item.featured">Feature</button>
+                <button class="btn btn-primary" ng-click="unfeature(item._id)" ng-show="item.featured">Unfeature</button>
+                <button class="btn btn-warning" ng-click="deal(item._id)" ng-hide="item.deal">Deal</button>
+                <button class="btn btn-primary" ng-click="undeal(item._id)" ng-show="item.deal">Undeal</button>
+                <button class="btn btn-primary" ng-click="delete(item._id)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

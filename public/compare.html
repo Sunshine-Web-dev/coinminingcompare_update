@@ -1,0 +1,118 @@
+<!-- Plan Comparison Chart Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<!-- end:header-top -->
+		<div id="fh5co-contact" class=" com-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+						<h3>Plan Comparison Chart</h3>
+						<p class="rubik">You may add up to 5 contracts to compare at one time.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<div class="row text-center" style="box-shadow: 0 0 20px #f2f2f2; padding-top: 20px; padding-bottom: 20px;">
+			<div class="col-md-10 col-md-offset-1">
+				<h3>How does the comparison chart work?</h3>
+				<p class="rubik">CoinMining Compare.com brings you all the best plans, all in one place.
+					<br/>We compare the top cryptocurrency mining companies for you, so you don’t have to.
+					<br/>
+					<br/>Once you’ve narrowed down your choice of plans, use the comparison chart below to compare them like for like.</p>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<div class="com-main">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-2 com-f-row">
+						<div class="com-header">
+							<h3 style=" min-height: 33px;">Plan Features <span style="font-size: 10px; cursor: pointer;" ng-click="clear()">Clear All</span></h3>
+						</div>
+						<div class="row_table row_table_min">Host</div>
+						<div class="row_table">Price (USD)</div>
+						<div class="row_table" style="height: 70px; line-height: 50px;">Maintenance Fee (USD)</div>
+						<div class="row_table">Coin</div>
+						<div class="row_table">Algorithm</div>
+						<div class="row_table">Hash Rate</div>
+						<div class="row_table">Contract Period</div>
+						<div class="row_table">Location</div>
+						<div class="row_table">Payout Currency</div>
+						<div class="row_table" style="height: 90px; line-height: 60px;">Payment Method</div>
+						<div class="row_table">Annual Revenue</div>
+						<div class="row_table">Annual Profit</div>
+						<div class="row_table">Days to Break Even</div>
+						<div class="row_table" style="height: 70px; line-height: 50px;">Remove from Chart</div>
+					</div>
+					<div class="col-md-2" ng-repeat="item in compareList">
+						<div class="com-header">
+							<h3 style="cursor: pointer; min-height: 33px;" go-click="/plan/{{item.slug}}">{{item.name}}</h3>
+						</div>
+						<div class="row_table row_table_min">
+							<img src="{{item.company.photo[0].url}}" width="75" height="75">
+						</div>
+						<div class="row_table">$ {{item.priceUSD | number}}&nbsp;</div>
+						<div class="row_table" style="height: 70px;">{{item.maintenance}}&nbsp;</div>
+						<div class="row_table">{{item.coin}}</div>
+						<div class="row_table">{{item.algo}}</div>
+						<div class="row_table">{{item.hashrate}} {{item.hashrateUnits}}</div>
+						<div class="row_table">{{item.period}}&nbsp;</div>
+						<div class="row_table">{{item.location}}&nbsp;</div>
+						<div class="row_table">{{item.payout}}&nbsp;</div>
+						<div class="row_table" style="height: 90px;">{{item.paymentmethods}}&nbsp;</div>
+						<div class="row_table" style="font-size: 12px; line-height: 24px;">${{item.rev | number}}&nbsp;</div>
+						<div class="row_table" style="font-size: 12px; line-height: 24px;">${{item.profit | number}}&nbsp;</div>
+						<div class="row_table" style="font-size: 12px; line-height: 24px;">{{item.break | number}}&nbsp;</div>
+						<div class="row_table"><a class="btn btn-warning" ng-click="delete($index)">Remove Item</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center" style="box-shadow: 0 0 20px #f2f2f2; padding-top: 20px; padding-bottom: 20px;">
+			<div class="col-md-10 col-md-offset-1">
+				<p class="rubik">Disclaimer: Annual Returns are calculated using present day network difficulty and exchange rates and can vary. While all efforts are made to ensure the information we are providing you is latest and accurate, CoinMiningCompare.com cannot be held responsible for the accuracy or reliablity of this this data.</p>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<!-- END fh5co-contact -->
+		<!-- END map -->
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>

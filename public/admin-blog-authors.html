@@ -1,0 +1,35 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Authors -->
+<div id="wrapper">
+    <ng-include src="'/admin-sidebar.html'"></ng-include>
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <h1 class="page-header">Authors</h1>
+            <br />
+            <button class="btn btn-warning" ng-click="newAuthor()">Create a New Authors</button>
+            <p>
+                <br />
+                <br />
+                You can see the Authors here:
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Bio</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="item in authors">
+                            <td>{{item.name}}</td>
+                            <td>{{item.bio}}</td>
+                            <td><button class="btn btn-primary" ng-click="delete(item._id)">Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

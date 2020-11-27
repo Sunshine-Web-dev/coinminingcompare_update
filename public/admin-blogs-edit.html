@@ -1,0 +1,48 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Blogs > Edit (Single Row Item) -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Edit Article</h1>
+      <p>
+        <br/>You can edit a blog here:</p>
+      <div class="col-md-10">
+        <p>
+          <label>Author</label>
+          <select class="form-control" ng-model="blog.author">
+            <option value="{{item._id}}" ng-repeat="item in authors">{{item.name}}</option>
+          </select>
+        </p>
+        <p>
+          <label>Title</label>
+          <input id="name" class="form-control" type="text" ng-model="blog.title" required>
+        </p>
+        <p class="button-sml">
+          <label>Body</label>
+          <div ckeditor="options" ng-model="blog.text" ready="onReady()"></div>
+        </p>
+        <p>
+          <label>Photo - Required</label>
+          <p>Upload
+            <input type="file" name="myfile" file-input="myfile">
+            <input type="submit" value="Upload" ng-click="uploadFile(myfile)">
+            <input type="submit" value="Delete" ng-click="clearPhotos()">
+          </p>
+          <p ng-repeat="photo in photos">
+            <img src="{{photo.url}}" height="100">
+          </p>
+        </p>
+        <h5 ng-show="success">
+     <div class="alert alert-success">
+      <strong>Success!</strong> Blog updated.
+    </div>
+   </h5>
+        <p>
+          <button style="margin-top:20px" class="btn btn-warning" ng-click="update(blog)">Update</button>
+          <button style="margin-top:20px" class="btn btn-primary" ng-click="back()">Cancel</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

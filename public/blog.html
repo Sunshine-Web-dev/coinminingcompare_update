@@ -1,0 +1,69 @@
+<!-- Blog -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<!-- end:header-top -->
+		<div id="fh5co-blog-section" class="p-t-250">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+						<h3>Articles</h3>
+						<p class="rubik">Get the latest on Cryptocurrency Cloud Mining news and trends</p>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row equal-height">
+					<div class="col-xs-12 col-md-3" ng-repeat="item in blogs | orderBy:'-createTimestamp'">
+						<div class="thumbnail" style="border: 0px;">
+							<img src="{{item.photo[0].url}}" alt="{{item.title}}" class="img-fullsize" go-click="/article/{{item.slug}}" style="cursor: pointer;">
+							<div class="caption">
+								<div class="blog-text caption">
+									<div class="prod-title">
+										<h3 style="font-weight: 600;"><a href="/article/{{item.slug}}" style="font-size: 18px; color: #0b141e;">{{item.title}}</a></h3>
+										<p class="rubik">{{item.createDate}}</p>	<a href="/article/{{item.slug}}" class="text text-orange">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- /.col-xs-6.col-md-3 -->
+				</div>
+			</div>
+		</div>
+		<!-- END fh5co-contact -->
+		<!-- END map -->
+		<script type="text/javascript">
+			// When the user scrolls the page, execute myFunction 
+			window.onscroll = function() { myFunction() };
+			// Get the header
+			var header = document.getElementById("head");
+			// Get the offset position of the navbar
+			if (header) var sticky = header.offsetTop;
+			// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+			function myFunction() {
+				if (window.pageYOffset >= sticky) {
+					if(header) header.classList.add("sticky");
+				} else {
+					if(header) header.classList.remove("sticky");
+				}
+			}
+		</script>
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>

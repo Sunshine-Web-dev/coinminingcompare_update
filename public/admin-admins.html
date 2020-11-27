@@ -1,0 +1,35 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Admins -->
+<div id="wrapper">
+    <ng-include src="'/admin-sidebar.html'"></ng-include>
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <h1 class="page-header">Admins</h1>
+            <br />
+            <button class="btn btn-warning" ng-click="newAdmin()">Create a New Admin</button>
+            <p>
+                <br />
+                <br />
+                You can see the system admins here:
+            </p>
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="admin in admins">
+                            <td>{{admin.name}}</td>
+                            <td>{{admin.email}}</td>
+                            <td><button class="btn btn-primary" ng-click="delete(admin._id)">Delete</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

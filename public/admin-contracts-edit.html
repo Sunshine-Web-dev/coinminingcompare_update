@@ -1,0 +1,103 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Contracts > Edit (Single Row Item) -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Edit Contract</h1>
+      <p>
+        <br />You can edit contracts here:</p>
+      <div class="col-md-4">
+        <p>
+          <label>Company / Service Provider</label>
+          <select class="form-control" ng-model="data.companies">
+            <option value="{{item._id}}" ng-repeat="item in companies">{{item.name}}</option>
+          </select>
+        </p>
+        <p>
+          <label>Plan Name</label>
+          <input id="name" class="form-control" type="text" ng-model="data.name" required />
+        </p>
+        <p>
+          <label>Coin</label>
+          <input id="name" class="form-control" type="text" ng-model="data.coin" required />
+        </p>
+        <p>
+          <label>Algorithm</label>
+          <input id="name" class="form-control" type="text" ng-model="data.algo" required />
+        </p>
+        <p>
+          <label>Hashrate</label>
+          <input id="name" class="form-control" type="text" ng-model="data.hashrate" required />
+        </p>
+        <p>
+          <label>Units</label>
+          <input id="name" class="form-control" type="text" ng-model="data.hashrateUnits" required />
+        </p>
+        <p>
+          <label>Contract Period (Months)</label>
+          <input id="name" class="form-control" type="text" ng-model="data.period" required />
+        </p>
+        <p>
+          <label>Payout Currency</label>
+          <input id="name" class="form-control" type="text" ng-model="data.payout" required />
+        </p>
+        <p>
+          <label>Maintenance Fee (USD)</label>
+          <input id="name" class="form-control" type="text" ng-model="data.maintenance" required />
+        </p>
+        <p>
+          <label>Price (USD)</label>
+          <input id="name" class="form-control" type="text" ng-model="data.priceUSD" required />
+        </p>
+        <p>
+          <label>Price (Other)</label>
+          <input id="name" class="form-control" type="text" ng-model="data.priceOther" required />
+        </p>
+        <p>
+          <label>Feature 1</label>
+          <input id="name" class="form-control" type="text" ng-model="data.f1" required />
+        </p>
+        <p>
+          <label>Feature 2</label>
+          <input id="name" class="form-control" type="text" ng-model="data.f2" required />
+        </p>
+        <p>
+          <label>Feature 3</label>
+          <input id="name" class="form-control" type="text" ng-model="data.f3" required />
+        </p>
+        <p>
+          <label>Feature 4</label>
+          <input id="name" class="form-control" type="text" ng-model="data.f4" required />
+        </p>
+        <p>
+          <label>Location</label>
+          <input id="name" class="form-control" type="text" ng-model="data.location" required />
+        </p>
+        <p>
+          <label>Payment Methods</label>
+          <input id="name" class="form-control" type="text" ng-model="data.paymentmethods" required />
+        </p>
+        <p>
+          <label>Referral URL</label>
+          <input id="name" class="form-control" type="text" ng-model="data.refURL" required />
+        </p>
+        <p>
+          <label>Referral Code</label>
+          <input id="name" class="form-control" type="text" ng-model="data.refCode" required />
+        </p>
+        <p>
+          <label>Promotion</label>
+          <input id="name" class="form-control" type="text" ng-model="data.promotion" required />
+        </p>
+        <h5 ng-show="success">
+                    <div class="alert alert-success"><strong>Success!</strong> Contract updated.</div>
+                </h5>
+        <p>
+          <button style="margin-top: 20px;" class="btn btn-warning" ng-click="update(data)">Update</button>
+          <button style="margin-top: 20px;" class="btn btn-primary" ng-click="back()">Cancel</button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

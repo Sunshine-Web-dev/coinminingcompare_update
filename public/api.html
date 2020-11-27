@@ -1,0 +1,132 @@
+<!-- API Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+  <h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+  <h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+  <h2 style="color: white;" go-click="plans">Plans</h2>
+  <h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+  <h2 style="color: white; " go-click="articles">Articles</h2>
+  <h2 style="color: white; " go-click="compare">Compare</h2>
+  <h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+  <div id="fh5co-page">
+    <!-- Include Header -->
+    <div id="head">
+      <ng-include src="'/header.html'"></ng-include>
+    </div>
+    <!-- END fh5co-about -->
+    <div id="fh5co-content-section" class="fh5co-section-gray" style="padding-top: 200px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h3 class="text-center">CoinMiningCompare API Documentation</h3>
+            <p class="rubik text-center">CoinMiningCompare provides API access to the cryptocurrency data listed on coinminingcompare.com with JSON responses. All API requests require an API key. To generate an API key, please click the "Generate API key" button. In order for an API key to be approved a valid facebook account is required.</p>
+            <p class="text-center">
+              <button class="btn btn-warning" ng-click="key()" fb-login>Generate API Key</button>
+            </p>
+            <p ng-show="keyShow">
+              <div class="alert alert-success">Your API Key: {{key}}</div>
+            </p>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Bitcoin Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/btc?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for bitcoin (BTC)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {"name":"Bitcoin","symbol":"BTC","difficulty":5178671069072,"reward":12.5,"coinToDollar":"8202.08"}
+                            </samp>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Ethereum Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/eth?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for ethereum (ETH)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {"name":"Ethereum","symbol":"ETH","difficulty":3447754503360350,"reward":3.03935506913,"coinToDollar":"471.827"}
+                            </samp>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Litecoin Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/ltc?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for litecoin (LTC)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {"name":"Litecoin","symbol":"LTC","difficulty":"9510852.618","reward":25,"coinToDollar":"86.6618"}
+                            </samp>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Monero Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/xmr?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for monero (XMR)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {"name":"Monero","symbol":"XMR","difficulty":53699367699,"reward":4.175924441737273,"coinToDollar":"140.397"}
+                            </samp>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Zcash Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/zec?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for Zcash (ZEC)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {"name":"Zcash","symbol":"ZEC","difficulty":14348548.34761814,"reward":12.51457035,"coinToDollar":"211.959"}
+                            </samp>
+              </div>
+            </div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Dash Difficulty and Block Reward</h3>
+              </div>
+              <div class="panel-body">
+                <div class="alert alert-success">https://www.coinminingcompare.com/api/coins/dash?key=YOUR_API_KEY</div>Get the latest difficulty and block reward for Dash (DASH)
+                <br/>
+                <br/>Sample Response:
+                <br/> <samp>
+                                {difficulty: 0, reward: 0}
+                            </samp>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Include Footer -->
+    <ng-include src="'/footer.html'"></ng-include>
+  </div>
+</div>
+<script type="text/javascript">
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() { myFunction() };
+  // Get the header
+  var header = document.getElementById("head");
+  // Get the offset position of the navbar
+  if (header) var sticky = header.offsetTop;
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      if(header) header.classList.add("sticky");
+    } else {
+      if(header) header.classList.remove("sticky");
+    }
+  }
+</script>

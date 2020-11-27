@@ -1,0 +1,8 @@
+{
+  "name": "CoinMiningCompare",
+  "description": "CoinMiningCompare app on MEAN Stack",
+  "repository": "https://github.com/Squarestock/CoinMiningCompare",
+  "logo": "https://mlab.com/company/brand/resources/mLab-logo-onlight.png",
+  "keywords": ["node", "express", "angular", "MEAN", "mongodb", "REST", "API"],
+  "addons": ["mongolab"]
+}

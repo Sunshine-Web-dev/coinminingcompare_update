@@ -1,0 +1,43 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Authors > Create -->
+<div id="wrapper">
+    <ng-include src="'/admin-sidebar.html'"></ng-include>
+    <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <h1 class="page-header">Create a New Blog Author</h1>
+            <p>
+                <br />
+                You can create a new author here:
+            </p>
+            <div class="col-md-4">
+              <!-- Show success message -->
+                <h5 ng-show="success">
+                    <div class="alert alert-success"><strong>Success!</strong> Blog Author added.</div>
+                </h5>
+                <p>
+                    <label>Name</label>
+                    <input id="name" class="form-control" type="text" ng-model="author.name" required />
+                </p>
+                <p>
+                    <label>Short Bio</label>
+                    <textarea id="ta1" ng-model="author.bio" style="display: block; border-color: #ccc;" rows="4" cols="50"></textarea>
+                </p>
+                <div>
+                    <label>Photo (Square Image) - Optional</label>
+                    <p>
+                        Upload
+                        <input type="file" name="myfile" file-input="myfile" />
+                        <input type="submit" value="Upload" ng-click="uploadFile(myfile)" />
+                    </p>
+
+                    <p ng-repeat="photo in photos"><img src="{{photo.url}}" height="100" /></p>
+                </div>
+
+                <p>
+                    <button style="margin-top: 20px;" class="btn btn-warning" ng-click="create(author)">Create</button>
+                    <button style="margin-top: 20px;" class="btn btn-primary" ng-click="back()">Cancel</button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,96 @@
+<!-- Sitemap Page (Copy of sitemap.html) -->
+<!-- This page is used to copy all links in one go -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<!-- end:header-top -->
+		<div id="fh5co-contact" class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center heading-section ">
+						<h3>Sitemap</h3>
+						<p>CoinMiningCompare.com</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-md-offset-2">
+						<div class="row">
+							<div class="col-md-4 rubik">
+								<p><b>Contracts</b>
+								</p>
+								<p ng-repeat="item in contracts"><a href="/plan/{{item.slug}}">https://coinminingcompare.com/plan/{{item.slug}}</a>
+								</p>
+							</div>
+							<div class="col-md-4 rubik">
+								<p><b>Articles</b>
+								</p>
+								<p ng-repeat="itemz in blogs"><a href="/article/{{itemz.slug}}">https://coinminingcompare.com/article/{{itemz.slug}}</a>
+								</p>
+							</div>
+							<div class="col-md-4 rubik">
+								<p><b>Links</b>
+								</p>
+								<p><a href="/plans">https://coinminingcompare.com/plans</a>
+								</p>
+								<p><a href="/plan-finder-step-1">https://coinminingcompare.com/plan-finder-step-1</a>
+								</p>
+								<p><a href="/profitability-calculator">https://coinminingcompare.com/profitability-calculator</a>
+								</p>
+								<p><a href="/articles">https://coinminingcompare.com/articles</a>
+								</p>
+								<p><a href="/about">https://coinminingcompare.com/about</a>
+								</p>
+								<p><a href="/contact">https://coinminingcompare.com/contact</a>
+								</p>
+								<p><a href="/privacy">https://coinminingcompare.com/privacy</a>
+								</p>
+								<p><a href="/terms">https://coinminingcompare.com/terms</a>
+								</p>
+								<p><a href="/disclaimer">https://coinminingcompare.com/disclaimer</a>
+								</p>
+								<p><a href="https://twitter.com/CoinMiningComp" target="_blank">Twitter</a>
+								</p>
+								<p><a href="https://www.facebook.com/coinminingcompare" target="_blank">Facebook</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- END fh5co-contact -->
+		<!-- END map -->
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>

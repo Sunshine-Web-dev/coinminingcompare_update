@@ -1,0 +1,62 @@
+<!-- Website Disclaimer Page -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+  <h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+  <h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+  <h2 style="color: white;" go-click="plans">Plans</h2>
+  <h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+  <h2 style="color: white; " go-click="blog">Articles</h2>
+  <h2 style="color: white; " go-click="compare">Compare</h2>
+  <h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+  <div id="fh5co-page">
+    <!-- Include Header -->
+    <div id="head">
+      <ng-include src="'/header.html'"></ng-include>
+    </div>
+    <div id="fh5co-contact" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center heading-section ">
+            <h3>Website Disclaimer</h3>
+            <p>CoinMiningCompare.com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              <div class="col-md-12 rubik">
+                <p>The information contained in this website is for general information purposes only. The information is provided by CoinMiningCompare.com and while we endeavour to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk.</p>
+                <p>In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website.</p>
+                <p>Through this website you are able to link to other websites which are not under the control of CoinMiningCompare.com. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them.</p>
+                <p>Every effort is made to keep the website up and running smoothly. However, CoinMiningCompare.com takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to techniprofitability-calculator issues beyond our control.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END fh5co-contact -->
+    <!-- END map -->
+    <!-- Include Footer -->
+    <ng-include src="'/footer.html'"></ng-include>
+  </div>
+  <!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() { myFunction() };
+  // Get the header
+  var header = document.getElementById("head");
+  // Get the offset position of the navbar
+  if (header) var sticky = header.offsetTop;
+  // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      if(header) header.classList.add("sticky");
+    } else {
+      if(header) header.classList.remove("sticky");
+    }
+  }
+</script>

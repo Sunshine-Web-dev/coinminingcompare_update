@@ -1,0 +1,45 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Dashboard -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1>Dashboard</h1>
+          <p>Number of companies, contracts, metrics and users are shown below</p>
+          <div class="row">
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.companies}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Companies</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.contracts}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Contracts</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.users}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Users</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.reviews}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Reviews</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.authors}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Blog Authors</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.blogs}}</h1>
+              <p class="rubik" style="margin-top: -20px;">Blog Posts</p>
+            </div>
+            <div class="col-xs-6 col-md-4 text-center" style="background-color: #eee; margin: 20px; padding-top: 20px; padding-bottom: 20px; border-radius: 5px;">
+              <h1>{{data.admins}}</h1>
+              <p class="rubik" style="margin-top: -20px;">System Admins</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

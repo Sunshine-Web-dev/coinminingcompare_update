@@ -1,0 +1,37 @@
+<!-- Admin Panel Page -->
+<!-- Path: Admin Panel > Login > Users -->
+<div id="wrapper">
+  <ng-include src="'/admin-sidebar.html'"></ng-include>
+  <div id="page-content-wrapper">
+    <div class="container-fluid">
+      <h1 class="page-header">Users</h1>
+      <p>
+        <br/>
+        <br/>You can see the users here. A user is created when they add a review:</p>
+      <div class="table-responsive">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Photo</th>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="item in users">
+              <td>
+                <img src="{{item.imageUrl}}" width="40" height="40" style="border-radius: 1000px;" />
+              </td>
+              <td>{{item.name}}</td>
+              <td>{{item.email}}</td>
+              <td><a class="btn btn-warning" href="http://fb.com/{{item.fbid}}">View Facebook Profile</a>
+                <button class="btn btn-primary" ng-click="delete(item._id)">Delete</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

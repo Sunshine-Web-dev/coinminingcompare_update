@@ -1,0 +1,125 @@
+<!-- Wizard: Step 2 -->
+<!-- Handle Overlay Menu -->
+<div id="overlay" ng-show="menu">
+	<h2 style="color: white; padding-top: 200px; line-height: 20px;" go-click="">Home</h2>
+	<h2 style="color: white;" go-click="plan-finder-step-1">Plan Finder</h2>
+	<h2 style="color: white;" go-click="plans">Plans</h2>
+	<h2 style="color: white; " go-click="profitability-calculator">Profitability</h2>
+	<h2 style="color: white; " go-click="articles">Articles</h2>
+	<h2 style="color: white; " go-click="compare">Compare</h2>
+	<h2 style="color: white; " ng-click="menu1()">Close</h2>
+</div>
+<div id="fh5co-wrapper" class="{{ovh}}">
+	<div id="fh5co-page">
+		<!-- Include Header -->
+		<div id="head">
+			<ng-include src="'/header.html'"></ng-include>
+		</div>
+		<div class="header-top-inner hidden-on-mobile">
+			<br/>
+			<ul class="timeline" id="timeline">
+				<li class="lii complete" go-click="plan-finder-step-1">
+					<div class="timestamp"> <span class="author">Coin</span>
+					</div>
+					<div class="status">
+						<h4></h4>
+					</div>
+				</li>
+				<li class="lii complete">
+					<div class="timestamp"> <span class="author">Payouts</span>
+					</div>
+					<div class="status">
+						<h4></h4>
+					</div>
+				</li>
+				<li class="lii">
+					<div class="timestamp"> <span class="author">Budget</span>
+					</div>
+					<div class="status">
+						<h4></h4>
+					</div>
+				</li>
+				<li class="lii ">
+					<div class="timestamp"> <span class="author">Contract</span>
+					</div>
+					<div class="status">
+						<h4></h4>
+					</div>
+				</li>
+				<li class="lii ">
+					<div class="timestamp"> <span class="author">Location</span>
+					</div>
+					<div class="status">
+						<h4></h4>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="header-toggle">
+			<div class="container-fluid"></div>
+		</div>
+		<div class="wizard-main text-center ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<br/>
+						<br/>
+						<br/>
+						<h2>What currency do you wish to receive your payouts in?</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">	<a class="btn btn-info" href="/plan-finder-step-3" ng-click="answer('BTC')">BTC</a>
+						<a class="btn btn-info" href="/plan-finder-step-3" ng-click="answer('ETH')">ETH</a>
+						<a class="btn btn-info" href="/plan-finder-step-3" ng-click="answer('LTC')">LTC</a>
+						<a class="btn btn-info" href="/plan-finder-step-3" ng-click="answer('USD')">USD</a>
+						<a class="btn btn-info" href="/plan-finder-step-3" ng-click="answer('-')">No Preference</a>
+					</div>
+					<br/>
+					<br/>
+					<br/>
+				</div>
+				<div class="row">
+					<br/>
+					<br/>
+					<div class="col-md-3"></div>
+					<div class="col-md-6" style="background-color: #f0ad4e; padding-top: 10px;">
+						<p class="text-center" style="color:#0b141e; font-size: 12px;">Certain providers give you the option of choosing the currency you'd like your payouts in. If you have a preference, please indicate this here.</p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+				<div class="row">
+					<br/>
+					<br/>
+					<div class="col-md-3"></div>
+					<div class="col-md-6">
+						<p class="rubik text-center" style="color:#303030; font-size: 12px;">	<span style="font-weight: bold;">Why are we asking you these questions?</span>
+							<br/>In order to tailor the results and provide the best cloud mining prices &amp; companies for your needs.</p>
+					</div>
+					<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+		<!-- END fh5co-contact -->
+		<!-- END map -->
+		<!-- Include Footer -->
+		<ng-include src="'/footer.html'"></ng-include>
+	</div>
+	<!-- END fh5co-page -->
+</div>
+<script type="text/javascript">
+	// When the user scrolls the page, execute myFunction 
+	window.onscroll = function() { myFunction() };
+	// Get the header
+	var header = document.getElementById("head");
+	// Get the offset position of the navbar
+	if (header) var sticky = header.offsetTop;
+	// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+	function myFunction() {
+		if (window.pageYOffset >= sticky) {
+			if(header) header.classList.add("sticky");
+		} else {
+			if(header) header.classList.remove("sticky");
+		}
+	}
+</script>
